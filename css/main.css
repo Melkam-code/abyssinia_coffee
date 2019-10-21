@@ -19,3 +19,14 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+      font-family: 'Open Sans', sans-serif;
+      color: black;
+      background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('../img/bodyBcg.jpg');
+
+  }
+
+  /* global css */
+.indie-font{
+    font-family: 'Indie Flower', cursive;
+}
