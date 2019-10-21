@@ -1,0 +1,21 @@
+/* Google font - imported font to use it - font-family: 'Indie Flower', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+
+
+:root{
+    --brightYellow: #E3B505;
+    --darkBrown: #BB9457;
+    --yellow:rgb(242, 180, 80);
+    --brown: #382923;
+    --black: #191919;
+    --grey: #A9B2AC;
+    --red: rgb(230, 21, 27);
+    --green: rgb(40, 214, 73);
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
