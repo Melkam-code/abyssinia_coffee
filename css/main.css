@@ -50,7 +50,7 @@
 }
 .banner{
     text-align: center;
-    z-index: 3;
+    /* z-index: 3; */
 }
 .banner_title{
   font-size: 4rem;
@@ -82,4 +82,41 @@
   grid-template-columns: repeat(4, 2rem);
   grid-column-gap: 0.5rem;
   justify-content: center;
+}
+/* Video css */
+.video_container{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%; 
+  height: 100%;
+  z-index: -1; 
+}
+.video_item{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.navBtn{
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  font-size: 3.5rem;
+  color: var(--brightYellow);
+  cursor: pointer;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+/* nav animation */
+@keyframes pulse{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
